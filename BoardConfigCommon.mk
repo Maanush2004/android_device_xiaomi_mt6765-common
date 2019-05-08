@@ -69,6 +69,4 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)/releasetools
 BOARD_ROOT_EXTRA_FOLDERS := nvcfg nvdata protect_f protect_s
 
 # Treble
-BOARD_VNDK_VERSION  := current
-BOARD_VNDK_RUNTIME_DISABLE := true
 TARGET_COPY_OUT_VENDOR := vendor
