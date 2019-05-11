@@ -37,5 +37,11 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_PACKAGES += \
     init.target.rc
 
+# MTK Radio Interfaces
+PRODUCT_PACKAGES += \
+	vendor.mediatek.hardware.radio@2.0 \
+	vendor.mediatek.hardware.radio-V2.0-java \
+	vendor.mediatek.hardware.radio-V2.0-java-static
+    
 # System properties
 -include $(LOCAL_PATH)/system_prop.mk
