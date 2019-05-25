@@ -31,7 +31,7 @@ $(GEN): PRIVATE_CUSTOM_TOOL = \
         -Ljava \
         -randroid.hardware:hardware/interfaces \
         -randroid.hidl:system/libhidl/transport \
-        -rvendor:vendor/interfaces/vendor \
+        -rvendor:device/xiaomi/mt6765-common/vendor \
         vendor.mediatek.hardware.radio@2.0::types.IncomingCallNotification
 
 $(GEN): $(LOCAL_PATH)/types.hal
@@ -51,7 +51,7 @@ $(GEN): PRIVATE_CUSTOM_TOOL = \
         -Ljava \
         -randroid.hardware:hardware/interfaces \
         -randroid.hidl:system/libhidl/transport \
-        -rvendor:vendor/interfaces/vendor \
+        -rvendor:device/xiaomi/mt6765-common/vendor \
         vendor.mediatek.hardware.radio@2.0::types.MtkDataProfileInfo
 
 $(GEN): $(LOCAL_PATH)/types.hal
@@ -71,7 +71,7 @@ $(GEN): PRIVATE_CUSTOM_TOOL = \
         -Ljava \
         -randroid.hardware:hardware/interfaces \
         -randroid.hidl:system/libhidl/transport \
-        -rvendor:vendor/interfaces/vendor \
+        -rvendor:device/xiaomi/mt6765-common/vendor \
         vendor.mediatek.hardware.radio@2.0::types.MtkSetupDataCallResult
 
 $(GEN): $(LOCAL_PATH)/types.hal
@@ -95,7 +95,7 @@ $(GEN): PRIVATE_CUSTOM_TOOL = \
         -Ljava \
         -randroid.hardware:hardware/interfaces \
         -randroid.hidl:system/libhidl/transport \
-        -rvendor:vendor/interfaces/vendor \
+        -rvendor:device/xiaomi/mt6765-common/vendor \
         vendor.mediatek.hardware.radio@2.0::IRadio
 
 $(GEN): $(LOCAL_PATH)/IRadio.hal
@@ -117,7 +117,7 @@ $(GEN): PRIVATE_CUSTOM_TOOL = \
         -Ljava \
         -randroid.hardware:hardware/interfaces \
         -randroid.hidl:system/libhidl/transport \
-        -rvendor:vendor/interfaces/vendor \
+        -rvendor:device/xiaomi/mt6765-common/vendor \
         vendor.mediatek.hardware.radio@2.0::IRadioIndication
 
 $(GEN): $(LOCAL_PATH)/IRadioIndication.hal
@@ -139,7 +139,7 @@ $(GEN): PRIVATE_CUSTOM_TOOL = \
         -Ljava \
         -randroid.hardware:hardware/interfaces \
         -randroid.hidl:system/libhidl/transport \
-        -rvendor:vendor/interfaces/vendor \
+        -rvendor:device/xiaomi/mt6765-common/vendor \
         vendor.mediatek.hardware.radio@2.0::IRadioResponse
 
 $(GEN): $(LOCAL_PATH)/IRadioResponse.hal
@@ -177,7 +177,7 @@ $(GEN): PRIVATE_CUSTOM_TOOL = \
         -Ljava \
         -randroid.hardware:hardware/interfaces \
         -randroid.hidl:system/libhidl/transport \
-        -rvendor:vendor/interfaces/vendor \
+        -rvendor:device/xiaomi/mt6765-common/vendor \
         vendor.mediatek.hardware.radio@2.0::types.IncomingCallNotification
 
 $(GEN): $(LOCAL_PATH)/types.hal
@@ -197,7 +197,7 @@ $(GEN): PRIVATE_CUSTOM_TOOL = \
         -Ljava \
         -randroid.hardware:hardware/interfaces \
         -randroid.hidl:system/libhidl/transport \
-        -rvendor:vendor/interfaces/vendor \
+        -rvendor:device/xiaomi/mt6765-common/vendor \
         vendor.mediatek.hardware.radio@2.0::types.MtkDataProfileInfo
 
 $(GEN): $(LOCAL_PATH)/types.hal
@@ -217,7 +217,7 @@ $(GEN): PRIVATE_CUSTOM_TOOL = \
         -Ljava \
         -randroid.hardware:hardware/interfaces \
         -randroid.hidl:system/libhidl/transport \
-        -rvendor:vendor/interfaces/vendor \
+        -rvendor:device/xiaomi/mt6765-common/vendor \
         vendor.mediatek.hardware.radio@2.0::types.MtkSetupDataCallResult
 
 $(GEN): $(LOCAL_PATH)/types.hal
@@ -241,7 +241,7 @@ $(GEN): PRIVATE_CUSTOM_TOOL = \
         -Ljava \
         -randroid.hardware:hardware/interfaces \
         -randroid.hidl:system/libhidl/transport \
-        -rvendor:vendor/interfaces/vendor \
+        -rvendor:device/xiaomi/mt6765-common/vendor \
         vendor.mediatek.hardware.radio@2.0::IRadio
 
 $(GEN): $(LOCAL_PATH)/IRadio.hal
@@ -263,7 +263,7 @@ $(GEN): PRIVATE_CUSTOM_TOOL = \
         -Ljava \
         -randroid.hardware:hardware/interfaces \
         -randroid.hidl:system/libhidl/transport \
-        -rvendor:vendor/interfaces/vendor \
+        -rvendor:device/xiaomi/mt6765-common/vendor \
         vendor.mediatek.hardware.radio@2.0::IRadioIndication
 
 $(GEN): $(LOCAL_PATH)/IRadioIndication.hal
@@ -285,7 +285,7 @@ $(GEN): PRIVATE_CUSTOM_TOOL = \
         -Ljava \
         -randroid.hardware:hardware/interfaces \
         -randroid.hidl:system/libhidl/transport \
-        -rvendor:vendor/interfaces/vendor \
+        -rvendor:device/xiaomi/mt6765-common/vendor \
         vendor.mediatek.hardware.radio@2.0::IRadioResponse
 
 $(GEN): $(LOCAL_PATH)/IRadioResponse.hal

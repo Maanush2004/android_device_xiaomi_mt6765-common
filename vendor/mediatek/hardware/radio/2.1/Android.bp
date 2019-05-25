@@ -10,7 +10,7 @@ filegroup {
 genrule {
     name: "vendor.mediatek.hardware.radio@2.1_genc++",
     tools: ["hidl-gen"],
-    cmd: "$(location hidl-gen) -o $(genDir) -Lc++-sources -randroid.hardware:hardware/interfaces -randroid.hidl:system/libhidl/transport -rvendor:vendor/interfaces/vendor vendor.mediatek.hardware.radio@2.1",
+    cmd: "$(location hidl-gen) -o $(genDir) -Lc++-sources -randroid.hardware:hardware/interfaces -randroid.hidl:system/libhidl/transport -rvendor:device/xiaomi/mt6765-common/vendor vendor.mediatek.hardware.radio@2.1",
     srcs: [
         ":vendor.mediatek.hardware.radio@2.1_hal",
     ],
@@ -22,7 +22,7 @@ genrule {
 genrule {
     name: "vendor.mediatek.hardware.radio@2.1_genc++_headers",
     tools: ["hidl-gen"],
-    cmd: "$(location hidl-gen) -o $(genDir) -Lc++-headers -randroid.hardware:hardware/interfaces -randroid.hidl:system/libhidl/transport -rvendor:vendor/interfaces/vendor vendor.mediatek.hardware.radio@2.1",
+    cmd: "$(location hidl-gen) -o $(genDir) -Lc++-headers -randroid.hardware:hardware/interfaces -randroid.hidl:system/libhidl/transport -rvendor:device/xiaomi/mt6765-common/vendor vendor.mediatek.hardware.radio@2.1",
     srcs: [
         ":vendor.mediatek.hardware.radio@2.1_hal",
     ],
