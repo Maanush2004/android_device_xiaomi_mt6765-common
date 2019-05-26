@@ -56,4 +56,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # disable ipo for development
 PRODUCT_PROPERTY_OVERRIDES += \
     sys.ipo.disable=1
-
+    
+# MTK INIT Path
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.mtkrc.path=/vendor/etc/init/hw/
