@@ -43,5 +43,15 @@ PRODUCT_PACKAGES += \
 	vendor.mediatek.hardware.radio-V2.0-java \
 	vendor.mediatek.hardware.radio-V2.0-java-static
     
+# GPS
+PRODUCT_PACKAGES += \
+	libcurl \
+	libandroid_net
+
+# WiFi
+PRODUCT_PACKAGES += \
+	android.hardware.wifi@1.0 \
+	android.hardware.wifi@1.1
+
 # System properties
 -include $(LOCAL_PATH)/system_prop.mk
